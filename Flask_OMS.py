@@ -19,5 +19,9 @@ def register():
 def main():
     return render_template('main.html')
 
+@app.route('/main2')
+def main2():
+    return render_template('main2.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
