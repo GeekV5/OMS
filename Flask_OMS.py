@@ -3,11 +3,11 @@ from flask import redirect
 from flask import render_template
 app = Flask(__name__)
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
+# @app.route('/')
+# def hello_world():
+#     return 'Hello World!'
 
-@app.route('/login')
+@app.route('/')
 def login():
     return render_template('login.html')
 
