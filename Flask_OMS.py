@@ -23,6 +23,9 @@ def mysql1():
         print 'OMS查询MySQL oms_user表出错！'
     else:
         print 'OMS查询MySQL oms_user表 结果：',data[0]
+        print '查询结果第一行第一列数据：',data[0][0]
+        print '查询出的用户名为：',data[0][1]
+        print '查询出的密码为：', data[0][2]
     return render_template('test.html')
 
 # @app.route('/')
