@@ -4,7 +4,7 @@ from flask import Flask
 import MySQLdb
 from flask.ext.sqlalchemy import  SQLAlchemy
 
-# 查询数据库
+# 查询数据库11
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'hard to guess'
 
